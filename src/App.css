@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul a.active {
+  color: rgb(244, 106, 157);
+}
