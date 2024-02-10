@@ -11,10 +11,10 @@ import ExerciseDetail from "./components/ExerciseDetail";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/fithub-gym">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/fithub-gym" element={<Home />} />
           <Route path="/allexercises" element={<AllExercises />} />
           <Route path="/exercises/exercise/:id" element={<ExerciseDetail />} />
           <Route path="/searchCategory" element={<SearchCategory />} />
