@@ -14,7 +14,7 @@ const App = () => {
       <BrowserRouter basename="/fithub-gym">
         <Navbar />
         <Routes>
-          <Route path="/fithub-gym" element={<Home />} />
+          <Route exact path="/fithub-gym" element={<Home />} />
           <Route path="/allexercises" element={<AllExercises />} />
           <Route path="/exercises/exercise/:id" element={<ExerciseDetail />} />
           <Route path="/searchCategory" element={<SearchCategory />} />
