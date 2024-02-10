@@ -14,7 +14,7 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/allexercises" element={<AllExercises />} />
           <Route path="/exercises/exercise/:id" element={<ExerciseDetail />} />
           <Route path="/searchCategory" element={<SearchCategory />} />
