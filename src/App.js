@@ -11,7 +11,7 @@ import ExerciseDetail from "./components/ExerciseDetail";
 const App = () => {
   return (
     <>
-      <BrowserRouter Basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
